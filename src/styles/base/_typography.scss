@@ -1,0 +1,13 @@
+.heading {
+    &--primary {
+        color: $color-white;
+        font-size:3rem;
+        font-weight: 700;
+    } 
+    
+    &--secondary {
+        color: $color-gray-300;
+        font-size: 1.125rem;
+        font-weight: 500;
+    }
+}

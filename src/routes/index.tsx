@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
+import Cartoes from "../pages/Cartoes";
 
 const Rotas = () => {
   return (
     <Routes>
-      <Route path="/" element={<h1>Olá mundo</h1>}></Route>
+        <Route path="/cartoes" element={<Cartoes/>}></Route>
     </Routes>
   );
 };
