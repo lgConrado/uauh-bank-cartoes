@@ -15,10 +15,16 @@
     font-size: 1.25rem;
     font-weight: 700;
   }
+
+  &--quaternary {
+    color: $color-c-primary-dark;
+    font-size: 1.125rem;
+    font-weight: 800;
+  }
 }
 
 .text {
   &--cinza {
-    color: $color-gray-500;
+    color: $color-gray-600;
   }
 }
