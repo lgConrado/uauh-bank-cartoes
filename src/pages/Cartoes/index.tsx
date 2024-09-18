@@ -1,13 +1,17 @@
-import BannerCartoes from "../../components/BannerCartoes"
-import PortaisCartoes from "../../components/PortaisCartoes"
+import BannerCartoesPrincipal from "../../components/Banner/Cartoes/Principal";
+import BannerCartoesBeneficios from "../../components/Banner/Cartoes/Beneficios";
+import Portais from "../../components/Portais";
+import BannerAppCartoes from "../../components/Banner/Cartoes/App";
 
 const Cartoes = () => {
   return (
     <main className="main-c">
-     <BannerCartoes/>
-     <PortaisCartoes />
+      <BannerCartoesPrincipal />
+      <Portais />
+      <BannerCartoesBeneficios />
+      <BannerAppCartoes />
     </main>
-  )
-}
+  );
+};
 
-export default Cartoes
+export default Cartoes;

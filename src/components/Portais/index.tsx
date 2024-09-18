@@ -17,7 +17,7 @@ const coverCard = (portal: string) => {
         <img
           src={portal_beneficio}
           alt={`Capa ${portal}`}
-          className="portais-c__card__header__cover"
+          className="portais__card__header__cover"
         />
       );
     case "Portal Credenciado":
@@ -47,22 +47,22 @@ const coverCard = (portal: string) => {
   }
 };
 
-const PortaisCartoes = () => {
+const Portais = () => {
   return (
-    <section className="portais-c">
-      <div className="portais-c__content">
+    <section className="portais">
+      <div className="portais__content">
         {portais.map((portal: IPortal, index) => {
           return (
-            <div className="portais-c__card" key={index}>
-              <div className="portais-c__card__header">
+            <div className="portais__card" key={index}>
+              <div className="portais__card__header">
                 {coverCard(portal.portal)}
                 <h3 className="heading--tertiary">{portal.portal}</h3>
               </div>
-              <p className="text--cinza portais-c__card__descricao">
+              <p className="text--cinza portais__card__descricao">
                 {portal.descricao}
               </p>
-              <div className="portais-c__card__button">
-                <button className="button button-c--laranja ">Acessar</button>
+              <div className="portais__card__button">
+                <button className="button button--c--laranja ">Acessar</button>
               </div>
             </div>
           );
@@ -72,4 +72,4 @@ const PortaisCartoes = () => {
   );
 };
 
-export default PortaisCartoes;
+export default Portais;

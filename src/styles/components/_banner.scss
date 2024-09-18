@@ -1,0 +1,150 @@
+.banner {
+  &--c {
+    &--principal {
+      background-color: $color-c-primary-dark;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+
+      &__content {
+        display: grid;
+        gap: 2rem 0;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+        padding: 2rem 4rem;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+
+        &__logo {
+          display: block;
+          grid-column: 1 / span 2;
+          grid-row: 1/2;
+          margin: 0 auto;
+        }
+
+        &__ilustracao {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          grid-column: 1/2;
+          grid-row: 2/2;
+          height: 32rem;
+          justify-content: center;
+          object-fit: contain;
+          width: 100%;
+        }
+
+        &__texts {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          grid-column: 2/2;
+          grid-row: 2/2;
+          justify-content: center;
+          max-width: 40rem;
+        }
+      }
+
+      &__figure {
+        position: absolute;
+        z-index: 0;
+
+        &--azul {
+          top: 5%;
+          right: -10%;
+        }
+
+        &--branca {
+          top: 15%;
+          left: 20%;
+        }
+
+        &--laranja {
+          left: -10%;
+          bottom: -10%;
+        }
+      }
+    }
+
+    &--beneficios {
+      height: 120vh;
+      position: relative;
+      overflow: hidden;
+
+      &:nth-child(even) &__content {
+        flex-direction: row-reverse;
+      }
+
+      &:nth-child(1) {
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+      }
+
+      &__container {
+        background-color: $color-c-primary-dark;
+      }
+
+      &__content {
+        align-items: center;
+        display: flex;
+        gap: 8rem;
+        height: 100%;
+        justify-content: center;
+        padding: 2rem 4rem;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+
+        &__texts {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+          max-width: 40rem;
+        }
+
+        & ul {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          padding-left: 2rem;
+
+          & > li {
+            color: $color-white;
+            font-size: 1.25rem;
+            font-weight: 500;
+          }
+        }
+      }
+
+      &--azul {
+        background-color: $color-c-primary-dark;
+      }
+
+      &--laranja {
+        background-color: $color-c-secondary;
+      }
+
+      &:nth-child(odd) &__figure {
+        display: none;
+      }
+      &__figure {
+        position: absolute;
+
+        &--azul {
+          left: 5%;
+          top: 10%;
+        }
+
+        &--branca {
+          left: 40%;
+          top: 50%;
+        }
+
+        &--laranja {
+          right: 5%;
+          top: 10%;
+        }
+      }
+    }
+  }
+}
