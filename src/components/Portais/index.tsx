@@ -25,7 +25,7 @@ const coverCard = (portal: string) => {
         <img
           src={portal_credenciado}
           alt={`Capa ${portal}`}
-          className="portais-c__card__header__cover"
+          className="portais__card__header__cover"
         />
       );
     case "Portal Frota":
@@ -33,7 +33,7 @@ const coverCard = (portal: string) => {
         <img
           src={portal_frota}
           alt={`Capa ${portal}`}
-          className="portais-c__card__header__cover"
+          className="portais__card__header__cover"
         />
       );
     case "Portal Usuário":
@@ -41,7 +41,7 @@ const coverCard = (portal: string) => {
         <img
           src={portal_usuario}
           alt={`Capa ${portal}`}
-          className="portais-c__card__header__cover"
+          className="portais__card__header__cover"
         />
       );
   }
