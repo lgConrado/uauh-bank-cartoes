@@ -2,12 +2,29 @@ import undraw from "../../../../assets/ilustracao-app.png";
 
 const BannerAppCartoes = () => {
   return (
-    <section>
-      <img src={undraw} />
-      <h1 className="heading--primary"></h1>
-      <h2 className="heading--secondary"></h2>
-      <button className="button button--c--azul"></button>
-      <button className="button button--c--azul"></button>
+    <section className="banner--c--app">
+      <div className="banner--c--app__content">
+        <div className="banner--c--app__content__left">
+          <img src={undraw} className="banner--c--app__content__left__ilustracao"/>
+        </div>
+        <div className="banner--c--app__content__right">
+          <div className="banner--c--app__content__right__texts">
+            <h1 className="heading--primary">Baixe nosso App</h1>
+            <h2 className="heading--secondary">
+              Baixe agora mesmo o app e entenda porque somos UAUH, extrato,
+              saldo, busca de estabelecimentos mais próximos entre outros.
+            </h2>
+          </div>
+          <div className="banner--c--app__content__right__buttons">
+            <button className="button button--c--azul">
+              Disponível no <br /> <b>Google Play</b>
+            </button>
+            <button className="button button--c--azul">
+              Disponível no <br /> <b>Apple Store</b>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

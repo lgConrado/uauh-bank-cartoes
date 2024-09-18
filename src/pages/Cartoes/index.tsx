@@ -8,8 +8,10 @@ const Cartoes = () => {
     <main className="main-c">
       <BannerCartoesPrincipal />
       <Portais />
-      <BannerCartoesBeneficios />
-      <BannerAppCartoes />
+      <div>
+        <BannerCartoesBeneficios />
+        <BannerAppCartoes />
+      </div>
     </main>
   );
 };
