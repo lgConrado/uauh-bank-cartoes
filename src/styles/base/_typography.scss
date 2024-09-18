@@ -1,13 +1,24 @@
 .heading {
-    &--primary {
-        color: $color-white;
-        font-size: 3.5rem;
-        font-weight: 700;
-    } 
-    
-    &--secondary {
-        color: $color-gray-300;
-        font-size: 1.25rem;
-        font-weight: 500;
-    }
+  &--primary {
+    color: $color-white;
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  &--secondary {
+    color: $color-gray-300;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  &--tertiary {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+
+.text {
+  &--cinza {
+    color: $color-gray-500;
+  }
 }

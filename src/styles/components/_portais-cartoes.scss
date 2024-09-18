@@ -1,0 +1,43 @@
+.portais-c {
+  padding: 0 4rem;
+
+  &__content {
+    display: flex;
+    gap: 4rem;
+  }
+
+  &__card {
+    align-items: center;
+    background-color: $color-white;
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 1rem rgba($color-black, 0.24);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
+
+    &__header {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      &__cover {
+        height: 4rem;
+        width: 4rem;
+      }
+    }
+
+    &__descricao {
+      max-width: 18rem;
+      text-align: justify;
+    }
+
+    &__button {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+  }
+}

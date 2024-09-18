@@ -7,11 +7,13 @@
 @import "./base/utilities";
 
 @import "./components/banner-cartoes";
+@import "./components/button";
 @import "./components/logo";
 @import "./components/figure";
+@import "./components/portais-cartoes";
 
 @import "./layout/footer";
 @import "./layout/header";
 @import "./layout/main";
 
-// @import "./pages/";
+@import "./pages/cartoes";

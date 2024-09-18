@@ -1,0 +1,15 @@
+.button {
+  appearance: none;
+  border: 0.0675rem solid transparent;
+  font-size: 1.125rem;
+  border-radius: 2rem;
+  padding: .5rem 1rem;
+
+  &-c {
+    &--laranja {
+      background-color: $color-c-secondary;
+      color: $color-white;
+      font-weight: 600;
+    }
+  }
+}
