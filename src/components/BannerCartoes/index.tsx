@@ -1,15 +1,14 @@
 import undraw from "../../assets/ilustracao-cartoes.png";
-import logo from "../../assets/logo-branca-cartoes.svg";
+import Figure from "../Figures";
+import Logo from "../Logo";
 
 const BannerCartoes = () => {
   return (
     <section className="banner-c">
       <div className="banner-c__content">
-        <img
-          className="logo--c--branca banner-c__content__logo"
-          src={logo}
-          alt="Logo principal"
-        />
+        <div className="banner-c__content__logo">
+          <Logo variant="cartoes" theme="branca" />
+        </div>
         <img
           className="banner-c__content__ilustracao"
           src={undraw}
@@ -24,6 +23,16 @@ const BannerCartoes = () => {
             corporativo, garantindo satisfação e produtividade.
           </h2>
         </div>
+      </div>
+
+      <div className="banner-c__figure banner-c__figure--azul">
+        <Figure theme="azul" />
+      </div>
+      <div className="banner-c__figure banner-c__figure--branca">
+        <Figure theme="branca" />
+      </div>
+      <div className="banner-c__figure banner-c__figure--laranja">
+        <Figure theme="laranja" />
       </div>
     </section>
   );
