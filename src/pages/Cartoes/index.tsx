@@ -14,8 +14,8 @@ const Cartoes = () => {
         <BannerCartoesBeneficios />
         <BannerAppCartoes />
         <BannerCartoesRede />
+        <Footer />
       </div>
-      <Footer />
     </main>
   );
 };
