@@ -1,10 +1,17 @@
 .banner {
   &--c {
-    &--principal {
-      background-color: $color-c-primary-dark;
+    &--principal,
+    &--beneficios,
+    &--app,
+    &--rede {
       height: 100vh;
       position: relative;
       overflow: hidden;
+      scroll-snap-align: center;
+    }
+    
+    &--principal {
+      background-color: $color-c-primary-dark;
 
       &__content {
         display: grid;
@@ -68,10 +75,6 @@
     }
 
     &--beneficios {
-      height: 120vh;
-      position: relative;
-      overflow: hidden;
-
       &:nth-child(even) &__content {
         flex-direction: row-reverse;
       }
@@ -149,7 +152,6 @@
 
     &--app {
       background-color: $color-c-secondary;
-      height: 100vh;
 
       &__content {
         align-items: center;
@@ -189,9 +191,6 @@
 
     &--rede {
       background-color: $color-c-primary-dark;
-      height: 100vh;
-      position: relative;
-      overflow: hidden;
 
       &__content {
         align-items: center;
@@ -226,7 +225,6 @@
         }
 
         &__button {
-
           & button {
             padding: 1rem 4rem;
           }

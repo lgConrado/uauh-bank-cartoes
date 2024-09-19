@@ -34,7 +34,10 @@ html ::-webkit-scrollbar-track {
   color: $color-black;
   font-size: 100%;
   font-synthesis: none;
+  height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
   text-rendering: optimizeLegibility;
 }

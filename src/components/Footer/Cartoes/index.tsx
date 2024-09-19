@@ -1,6 +1,6 @@
 import Logo from "../../Logo";
 
-const Footer = () => {
+const FooterCartoes = () => {
   return (
     <footer className="footer--c">
       <div className="footer--c__content">
@@ -19,11 +19,29 @@ const Footer = () => {
           <div className="footer--c__content__list">
             <h4 className="heading--quaternary">Serviços</h4>
             <ul>
-              <li className="text--cinza">App</li>
-              <li className="text--cinza">Benefícios</li>
-              <li className="text--cinza">Conta digital</li>
-              <li className="text--cinza">Rede de aceitação</li>
-              <li className="text--cinza">Portais de acesso</li>
+              <a href="#banner--c--principal" className="link">
+                <li>Cartões benefícios</li>
+              </a>
+              <a href="" className="link">
+                <li>Conta digital</li>
+              </a>
+            </ul>
+          </div>
+          <div className="footer--c__content__list">
+            <h4 className="heading--quarternary">Navegação</h4>
+            <ul>
+              <a href="#portais" className="link">
+                <li>Acesso aos portais</li>
+              </a>
+              <a href="#banner--c--app" className="link">
+                <li>App</li>
+              </a>
+              <a href="#banner--c--beneficios" className="link">
+                <li>Benefícios</li>
+              </a>
+              <a href="#banner--c--rede" className="link">
+                <li>Rede de aceitação</li>
+              </a>
             </ul>
           </div>
           <div className="footer--c__content__list">
@@ -39,10 +57,10 @@ const Footer = () => {
       <div className="footer--c__banner">
         Copyright &copy; 2024. Todos os direitos reservados.
         <br />
-        <b>MH Administradora de Cartões Ltda - CNPJ: 00.000.000/0000-00</b>
+        <b>MH Administradora de Cartões Ltda - CNPJ: 34.180.727/0001-10</b>
       </div>
     </footer>
   );
 };
 
-export default Footer;
+export default FooterCartoes;

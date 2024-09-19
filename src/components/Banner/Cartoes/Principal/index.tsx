@@ -4,7 +4,7 @@ import Logo from "../../../Logo";
 
 const BannerCartoesPrincipal = () => {
   return (
-    <section className="banner--c--principal">
+    <section className="banner--c--principal" id="banner--c--principal">
       <div className="banner--c--principal__content">
         <div className="banner--c--principal__content__logo">
           <Logo variant="cartoes" theme="branca" />

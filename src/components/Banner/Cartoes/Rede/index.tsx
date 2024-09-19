@@ -3,7 +3,7 @@ import Figure from "../../../Figures";
 
 const BannerCartoesRede = () => {
   return (
-    <section className="banner--c--rede">
+    <section className="banner--c--rede" id="banner--c--rede">
       <div className="banner--c--rede__content">
         <img
           className="banner--c--rede__content__ilustracao"

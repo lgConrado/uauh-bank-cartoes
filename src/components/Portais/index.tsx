@@ -49,7 +49,7 @@ const coverCard = (portal: string) => {
 
 const Portais = () => {
   return (
-    <section className="portais">
+    <section className="portais" id="portais">
       <div className="portais__content">
         {portais.map((portal: IPortal, index) => {
           return (
