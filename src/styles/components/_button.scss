@@ -1,20 +1,56 @@
 .button {
   appearance: none;
-  border: 0.0675rem solid transparent;
+  border: 0.125rem solid transparent;
   font-size: 1.125rem;
   border-radius: 2rem;
   padding: 0.5rem 2rem;
+  transition: all 0.3s ease-in-out;
 
   &--c {
     &--laranja {
       background-color: $color-c-secondary;
+      box-shadow: 0 0.25rem 1rem rgba($color-c-secondary, 0.24);
       color: $color-white;
       font-weight: 600;
+
+      &:hover,
+      &:focus {
+        cursor: pointer;
+      }
+
+      &:hover:not(:focus) {
+        background-color: $color-orange-500;
+        border-color: $color-c-secondary;
+        box-shadow: 0 0.25rem 1rem rgba($color-c-secondary, 0.48);
+        transform: scale(1.1) translateY(-0.5rem);
+      }
+
+      &:focus {
+        background-color: $color-orange-600;
+        box-shadow: 0 0.25rem 1rem rgba($color-c-secondary, 0.32);
+        transform: scale(1.1) translateY(-0.25rem);
+      }
     }
 
     &--azul {
       background-color: $color-c-primary-dark;
+      box-shadow: 0 0.25rem 1rem rgba($color-c-primary-dark, 0.24);
       color: $color-white;
+
+      &:hover,
+      &:focus {
+        cursor: pointer;
+      }
+
+      &:hover:not(:focus) {
+        box-shadow: 0 0.25rem 1rem rgba($color-c-primary-dark, 0.48);
+        transform: scale(1.1) translateY(-0.5rem);
+      }
+
+      &:focus {
+        box-shadow: 0 0.25rem 1rem rgba($color-c-primary-dark, 0.32);
+        transform: scale(1.1) translateY(-0.25rem);
+      }
     }
   }
 }

@@ -9,7 +9,12 @@
       overflow: hidden;
       scroll-snap-align: center;
     }
-    
+
+    &--beneficios:nth-child(1),
+    &--app {
+      @extend %selection-secondary-theme;
+    }
+
     &--principal {
       background-color: $color-c-primary-dark;
 
@@ -24,6 +29,7 @@
         z-index: 1;
 
         &__logo {
+          animation: 2s appear forwards;
           display: block;
           grid-column: 1 / span 2;
           grid-row: 1/2;
@@ -32,6 +38,7 @@
 
         &__ilustracao {
           align-items: center;
+          animation: 2s slide-to-right forwards;
           display: flex;
           flex-direction: column;
           grid-column: 1/2;
@@ -50,6 +57,17 @@
           grid-row: 2/2;
           justify-content: center;
           max-width: 40rem;
+          
+          & > .heading--primary{
+            animation: 2s slide-to-bottom forwards;
+            opacity: 0;
+          }
+
+          & > .heading--secondary{
+            animation: .5s appear forwards;
+            animation-delay: 1.5s;
+            opacity: 0;
+          }
         }
       }
 
@@ -98,12 +116,23 @@
         width: 100%;
         z-index: 2;
 
+        &__cartao {
+          border-radius: 1rem;
+          box-shadow: 0 .25rem 1rem .25rem rgba($color-black, .32);
+          transition: all .3s ease-in-out;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
         &__texts {
           display: flex;
           flex-direction: column;
           gap: 2rem;
           max-width: 40rem;
         }
+
 
         & ul {
           display: flex;
@@ -226,9 +255,9 @@
 
         &__button {
           & button {
+            margin-top: 4rem;
             padding: 1rem 4rem;
           }
-          margin-top: 4rem;
         }
       }
 
