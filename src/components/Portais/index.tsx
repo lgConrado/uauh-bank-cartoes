@@ -56,7 +56,7 @@ const Portais = () => {
             <div className="portais__card" key={index}>
               <div className="portais__card__header">
                 {coverCard(portal.portal)}
-                <h3 className="heading--tertiary">{portal.portal}</h3>
+                <h3 className="heading--c--tertiary">{portal.portal}</h3>
               </div>
               <p className="text--cinza portais__card__descricao">
                 {portal.descricao}

@@ -1,3 +1,4 @@
+import BannerBankPrincipal from "../../components/Banner/Bank/Principal";
 import FooterBank from "../../components/Footer/Bank";
 import { useEffect } from "react";
 
@@ -19,6 +20,7 @@ const Bank = () => {
   return (
     <>
       <main className="main">
+        <BannerBankPrincipal />
       </main>
       <FooterBank />
     </>

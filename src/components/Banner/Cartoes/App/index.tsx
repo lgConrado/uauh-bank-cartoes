@@ -9,8 +9,8 @@ const BannerAppCartoes = () => {
         </div>
         <div className="banner--c--app__content__right">
           <div className="banner--c--app__content__right__texts">
-            <h1 className="heading--primary">Baixe nosso App</h1>
-            <h2 className="heading--secondary">
+            <h1 className="heading--c--primary">Baixe nosso App</h1>
+            <h2 className="heading--c--secondary">
               Baixe agora mesmo o app e entenda porque somos UAUH, extrato,
               saldo, busca de estabelecimentos mais próximos entre outros.
             </h2>

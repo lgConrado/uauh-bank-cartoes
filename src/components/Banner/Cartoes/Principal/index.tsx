@@ -15,10 +15,10 @@ const BannerCartoesPrincipal = () => {
           alt="Ilustração de cartões"
         />
         <div className="banner--c--principal__content__texts">
-          <h1 className="heading--primary">
+          <h1 className="heading--c--primary">
             Benefícios que vão te surpreender!
           </h1>
-          <h2 className="heading--secondary">
+          <h2 className="heading--c--secondary">
             Descubra como nossos produtos podem transformar o ambiente
             corporativo, garantindo satisfação e produtividade.
           </h2>

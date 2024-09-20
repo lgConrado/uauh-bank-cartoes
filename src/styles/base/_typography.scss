@@ -1,31 +1,51 @@
 .heading {
-  &--primary {
-    color: $color-white;
-    font-size: 3.5rem;
-    font-weight: 700;
-  }
-
-  &--secondary {
-    color: $color-white;
-    font-size: 1.25rem;
-    font-weight: 500;
-  }
-
-  &--tertiary {
-    font-size: 1.25rem;
-    font-weight: 700;
-  }
-
-  &--quaternary {
-    font-size: 1.125rem;
-    font-weight: 800;
-
-    &--b {
-      color: $color-b-primary;
+  &--c {
+    &--primary {
+      color: $color-white;
+      font-size: 3.5rem;
+      font-weight: 700;
     }
 
-    &--c {
+    &--secondary {
+      color: $color-white;
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+
+    &--tertiary {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    &--quaternary {
       color: $color-c-primary-dark;
+      font-size: 1.125rem;
+      font-weight: 800;
+    }
+  }
+
+  &--b {
+    &--primary {
+      color: $color-white;
+      font-size: 3rem;
+      font-weight: 600;
+
+      & > span {
+        font-weight: 400;
+      }
+    }
+
+    &--secondary {
+      color: $color-white;
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 2rem;
+    }
+
+    &--quaternary {
+      color: $color-b-primary;
+      font-size: 1.125rem;
+      font-weight: 800;
     }
   }
 }

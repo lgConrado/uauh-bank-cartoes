@@ -59,7 +59,7 @@ const BannerCartoesBeneficios = () => {
             <div className="banner--c--beneficios__content">
               {cardBeneficio(beneficio.beneficio)}
               <div className="banner--c--beneficios__content__texts">
-                <h1 className="heading--primary">{beneficio.beneficio}</h1>
+                <h1 className="heading--c--primary">{beneficio.beneficio}</h1>
                 <ul>
                   {beneficio.descricao.map((topico: string, index) => {
                     return <li key={index}>{topico}</li>;

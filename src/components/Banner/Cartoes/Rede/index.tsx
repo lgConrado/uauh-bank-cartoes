@@ -11,8 +11,8 @@ const BannerCartoesRede = () => {
           alt="Ilustração de cartões"
         />
         <div className="banner--c--rede__content__texts">
-          <h1 className="heading--primary">Explore nossa rede de aceitação!</h1>
-          <h2 className="heading--secondary">
+          <h1 className="heading--c--primary">Explore nossa rede de aceitação!</h1>
+          <h2 className="heading--c--secondary">
             Onde você estiver, estamos com você. Explore nossa rede de aceitação
             e faça suas compras com segurança e praticidade!
           </h2>

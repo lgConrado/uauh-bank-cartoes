@@ -9,7 +9,7 @@ const FooterBank = () => {
         </div>
         <div className="footer__content__lists">
           <div className="footer__content__list">
-            <h4 className="heading--quaternary heading--quaternary--b">
+            <h4 className="heading--b--quaternary">
               Sobre nós
             </h4>
             <ul>
@@ -19,7 +19,7 @@ const FooterBank = () => {
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--quaternary heading--quaternary--b">
+            <h4 className="heading--b--quaternary">
               Serviços
             </h4>
             <ul>
@@ -35,7 +35,7 @@ const FooterBank = () => {
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--quaternary heading--quaternary--b">
+            <h4 className="heading--b--quaternary">
               Navegação
             </h4>
             <ul>
@@ -54,7 +54,7 @@ const FooterBank = () => {
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--quaternary heading--quaternary--b">
+            <h4 className="heading--b--quaternary">
               Fale conosco
             </h4>
             <ul>
