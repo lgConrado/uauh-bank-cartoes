@@ -17,9 +17,16 @@
   }
 
   &--quaternary {
-    color: $color-c-primary-dark;
     font-size: 1.125rem;
     font-weight: 800;
+
+    &--b {
+      color: $color-b-primary;
+    }
+
+    &--c {
+      color: $color-c-primary-dark;
+    }
   }
 }
 

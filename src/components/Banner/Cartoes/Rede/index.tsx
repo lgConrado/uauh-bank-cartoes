@@ -1,4 +1,4 @@
-import undraw from "../../../../assets/ilustracao-busca-credenciado.png";
+import undraw from "../../../../assets/cartoes/ilustracao-busca-credenciado.png";
 import Figure from "../../../Figures";
 
 const BannerCartoesRede = () => {

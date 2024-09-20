@@ -1,10 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import Cartoes from "../pages/Cartoes";
+import Bank from "../pages/Bank";
 
 const Rotas = () => {
   return (
     <Routes>
-        <Route path="/cartoes" element={<Cartoes/>}></Route>
+      <Route path="/" element={<Cartoes />}></Route>
+      <Route path="/uauh-bank" element={<Bank />}></Route>
     </Routes>
   );
 };

@@ -1,7 +1,7 @@
-import cartao_alimentacao from "../../../../assets/cartao-alimentacao.png";
-import cartao_multi from "../../../../assets/cartao-multi.png";
-import cartao_transporte from "../../../../assets/cartao-transporte.png";
-import cartao_trocoFrete from "../../../../assets/cartao-troco-frete.png";
+import cartao_alimentacao from "../../../../assets/cartoes/cartao-alimentacao.png";
+import cartao_multi from "../../../../assets/cartoes/cartao-multi.png";
+import cartao_transporte from "../../../../assets/cartoes/cartao-transporte.png";
+import cartao_trocoFrete from "../../../../assets/cartoes/cartao-troco-frete.png";
 import beneficios from "./beneficios.json";
 import Figure from "../../../Figures";
 

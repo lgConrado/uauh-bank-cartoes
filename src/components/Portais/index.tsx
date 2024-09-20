@@ -1,8 +1,8 @@
 import portais from "./portais.json";
-import portal_beneficio from "../../assets/icone-portal-beneficio.png";
-import portal_credenciado from "../../assets/icone-portal-credenciado.png";
-import portal_frota from "../../assets/icone-portal-frota.png";
-import portal_usuario from "../../assets/icone-portal-usuario.png";
+import portal_beneficio from "../../assets/cartoes/icone-portal-beneficio.png";
+import portal_credenciado from "../../assets/cartoes/icone-portal-credenciado.png";
+import portal_frota from "../../assets/cartoes/icone-portal-frota.png";
+import portal_usuario from "../../assets/cartoes/icone-portal-usuario.png";
 
 interface IPortal {
   portal: string;

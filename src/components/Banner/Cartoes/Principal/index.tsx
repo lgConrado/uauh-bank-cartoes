@@ -1,4 +1,4 @@
-import undraw from "../../../../assets/ilustracao-cartoes.png";
+import undraw from "../../../../assets/cartoes/ilustracao-cartoes.png";
 import Figure from "../../../Figures";
 import Logo from "../../../Logo";
 

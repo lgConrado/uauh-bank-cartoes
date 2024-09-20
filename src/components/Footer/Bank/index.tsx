@@ -1,15 +1,17 @@
 import Logo from "../../Logo";
 
-const FooterCartoes = () => {
+const FooterBank = () => {
   return (
     <footer className="footer footer--c">
       <div className="footer__content">
-        <div className="footer__content__logo footer--c__logo">
-          <Logo variant="cartoes" theme="azul" />
+        <div className="footer__content__logo footer--b__logo">
+          <Logo variant="bank" theme="azul-claro" />
         </div>
         <div className="footer__content__lists">
           <div className="footer__content__list">
-            <h4 className="heading--quaternary heading--quaternary--c">Sobre nós</h4>
+            <h4 className="heading--quaternary heading--quaternary--b">
+              Sobre nós
+            </h4>
             <ul>
               <li className="text--cinza">Ética e Compilance</li>
               <li className="text--cinza">Política de privacidade</li>
@@ -17,9 +19,11 @@ const FooterCartoes = () => {
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--quaternary heading--quaternary--c">Serviços</h4>
+            <h4 className="heading--quaternary heading--quaternary--b">
+              Serviços
+            </h4>
             <ul>
-              <a href="#banner--principal" className="link">
+              <a href="#banner--c--principal" className="link">
                 <li>Cartões benefícios</li>
               </a>
               <a href="" className="link">
@@ -31,24 +35,28 @@ const FooterCartoes = () => {
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--quaternary heading--quaternary--c">Navegação</h4>
+            <h4 className="heading--quaternary heading--quaternary--b">
+              Navegação
+            </h4>
             <ul>
-              <a href="#portais" className="link">
-                <li>Acesso aos portais</li>
-              </a>
-              <a href="#banner--app" className="link">
+              <a href="#" className="link">
                 <li>App</li>
               </a>
-              <a href="#banner--beneficios" className="link">
+              <a href="#" className="link">
                 <li>Benefícios</li>
               </a>
-              <a href="#banner--rede" className="link">
-                <li>Rede de aceitação</li>
+              <a href="#" className="link">
+                <li>Conta digital</li>
+              </a>
+              <a href="#" className="link">
+                <li>Empréstimo consignado</li>
               </a>
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--quaternary heading--quaternary--c">Fale conosco</h4>
+            <h4 className="heading--quaternary heading--quaternary--b">
+              Fale conosco
+            </h4>
             <ul>
               <li className="text--cinza">0800 360 9000</li>
               <li className="text--cinza">+55 (44) 9.9185-8651</li>
@@ -57,13 +65,13 @@ const FooterCartoes = () => {
           </div>
         </div>
       </div>
-      <div className="footer__banner footer--c__banner">
+      <div className="footer__banner footer--b__banner">
         Copyright &copy; 2024. Todos os direitos reservados.
         <br />
-        <b>MH Administradora de Cartões Ltda - CNPJ: 34.180.727/0001-10</b>
+        <b>MH SOCIEDADE DE CREDITO DIRETO SA - CNPJ: 51.834.986/0001-36</b>
       </div>
     </footer>
   );
 };
 
-export default FooterCartoes;
+export default FooterBank;

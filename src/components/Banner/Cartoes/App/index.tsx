@@ -1,4 +1,4 @@
-import undraw from "../../../../assets/ilustracao-app.png";
+import undraw from "../../../../assets/cartoes/ilustracao-app.png";
 
 const BannerAppCartoes = () => {
   return (

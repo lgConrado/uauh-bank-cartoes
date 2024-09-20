@@ -23,7 +23,7 @@ const Cartoes = () => {
   }, []);
   return (
     <>
-      <main className="main-c">
+      <main className="main">
         <BannerCartoesPrincipal />
         <Portais />
         <div>

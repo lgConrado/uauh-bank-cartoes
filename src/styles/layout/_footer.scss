@@ -1,46 +1,62 @@
 .footer {
-  &--c {
-    background-color: $color-white;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    height: 70vh;
-    justify-content: end;
-    scroll-snap-align: center;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  height: 70vh;
+  justify-content: end;
+  scroll-snap-align: center;
 
-    &__content {
-      padding: 4rem;
+  &__content {
+    padding: 4rem;
 
-      &__logo {
-        border-bottom: 0.25rem solid $color-c-primary-dark;
-        display: inline-block;
-        padding: 0 2rem 0.5rem 2rem;
-      }
-
-      &__lists {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 4rem;
-      }
-
-      &__list {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-      }
-
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-      }
+    &__logo {
+      display: inline-block;
+      padding: 0 2rem 0.5rem 2rem;
     }
 
+    &__lists {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 4rem;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+
+  &__banner {
+    color: $color-white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  &--c {
     &__banner {
       background-color: $color-c-primary-dark;
-      color: $color-white;
-      padding: 1rem;
-      text-align: center;
+    }
+
+    &__logo {
+      border-bottom: 0.25rem solid $color-c-primary-dark;
+    }
+  }
+
+  &--b {
+    &__banner {
+      background-color: $color-b-primary;
+    }
+
+    &__logo {
+      border-bottom: 0.125rem solid $color-b-primary;
     }
   }
 }
