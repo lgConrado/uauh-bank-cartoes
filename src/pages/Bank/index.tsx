@@ -1,3 +1,4 @@
+import BannerBankBeneficios from "../../components/Banner/Bank/Beneficios";
 import BannerBankContaDigital from "../../components/Banner/Bank/ContaDigital";
 import BannerBankPrincipal from "../../components/Banner/Bank/Principal";
 import FooterBank from "../../components/Footer/Bank";
@@ -24,6 +25,7 @@ const Bank = () => {
         <div>
           <BannerBankPrincipal />
           <BannerBankContaDigital />
+          <BannerBankBeneficios />
         </div>
       </main>
       <FooterBank />
