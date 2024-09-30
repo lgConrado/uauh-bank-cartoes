@@ -30,3 +30,9 @@
     margin-left: 0;
   }
 }
+
+@keyframes button-pulse {
+  0% {
+    box-shadow: 0 0 0 1.25rem rgba($color-white, 0.32);
+  }
+}

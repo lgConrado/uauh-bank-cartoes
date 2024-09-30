@@ -44,20 +44,25 @@
         transform: scale(1.1) translateY(-0.25rem);
       }
     }
-  }
+  } 
 
   &--b {
     &--primary {
+      animation: button-pulse 2s infinite;
+      animation-delay: 2s;
+      box-shadow: 0 0 0 2em transparent;
       background-color: $color-white;
       box-shadow: 0 0.25rem 1rem rgba($color-white, 0.24);
       color: $color-b-primary;
 
       &:hover:not(:focus) {
+        animation: none;
         box-shadow: 0 0.25rem 1rem rgba($color-white, 0.48);
         transform: scale(1.1) translateY(-0.5rem);
       }
 
       &:focus {
+        animation: none;
         box-shadow: 0 0.25rem 1rem rgba($color-white, 0.32);
         transform: scale(1.1) translateY(-0.25rem);
       }

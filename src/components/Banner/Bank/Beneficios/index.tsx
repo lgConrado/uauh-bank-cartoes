@@ -55,6 +55,7 @@ const BannerBankBeneficios = () => {
                 }}
                 className="banner--b--beneficios__content__card__conteudo"
               />
+              <div className="banner--b--beneficios__content__card__figure"></div>
             </div>
           );
         })}
