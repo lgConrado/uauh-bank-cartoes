@@ -3,7 +3,7 @@ import undraw from "../../../../assets/bank/ilustracao-principal.jpg";
 
 const BannerBankPrincipal = () => {
   return (
-    <section className="banner--b--principal">
+    <section className="banner--b--principal" id="banner--b--principal">
       <div className="banner--b--principal__logo">
         <Logo variant="bank" theme="azul" />
       </div>

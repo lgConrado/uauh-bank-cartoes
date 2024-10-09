@@ -43,7 +43,7 @@ const BannerBankBeneficios = () => {
     }
   };
   return (
-    <section className="banner--b--beneficios">
+    <section className="banner--b--beneficios" id="banner--beneficios">
       <div className="banner--b--beneficios__content">
         {beneficios.map((beneficio: IBeneficio, index) => {
           return (

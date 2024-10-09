@@ -7,18 +7,52 @@
   justify-content: end;
   scroll-snap-align: center;
 
+  @include respond(tab-land) {
+    gap: 2rem;
+  }
+
+  @include respond(phone) {
+    gap: 1rem;
+    height: 95vh;
+  }
+
   &__content {
     padding: 4rem;
+
+    @include respond(laptop) {
+      padding: 3rem;
+    }
+
+    @include respond(tab-land) {
+      padding: 2rem;
+    }
+
+    @include respond(phone) {
+      padding: 1rem 2rem;
+    }
 
     &__logo {
       display: inline-block;
       padding: 0 2rem 0.5rem 2rem;
+
+      @include respond(phone) {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+      }
     }
 
     &__lists {
       display: flex;
       justify-content: space-around;
+      gap: 2rem;
       margin-top: 4rem;
+      flex-wrap: wrap;
+
+      @include respond(phone) {
+        flex-direction: column;
+        margin-top: 2rem;
+      }
     }
 
     &__list {
@@ -47,6 +81,10 @@
 
     &__logo {
       border-bottom: 0.25rem solid $color-c-primary-dark;
+
+      @include respond(phone) {
+        border-bottom: none;
+      }
     }
   }
 

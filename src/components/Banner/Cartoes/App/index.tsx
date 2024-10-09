@@ -2,10 +2,13 @@ import undraw from "../../../../assets/cartoes/ilustracao-app.png";
 
 const BannerAppCartoes = () => {
   return (
-    <section className="banner--c--app" id="banner--c--app">
+    <section className="banner--c--app" id="app">
       <div className="banner--c--app__content">
         <div className="banner--c--app__content__left">
-          <img src={undraw} className="banner--c--app__content__left__ilustracao"/>
+          <img
+            src={undraw}
+            className="banner--c--app__content__left__ilustracao"
+          />
         </div>
         <div className="banner--c--app__content__right">
           <div className="banner--c--app__content__right__texts">
@@ -16,12 +19,24 @@ const BannerAppCartoes = () => {
             </h2>
           </div>
           <div className="banner--c--app__content__right__buttons">
-            <button className="button button--c--azul">
-              Disponível no <br /> <b>Google Play</b>
-            </button>
-            <button className="button button--c--azul">
-              Disponível no <br /> <b>Apple Store</b>
-            </button>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.uauh&pcampaignid=web_share"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button button--c--azul">
+                Disponível no <br /> <b>Google Play</b>
+              </button>
+            </a>
+            <a
+              href="https://apps.apple.com/br/app/uauh/id1485764153"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button button--c--azul">
+                Disponível no <br /> <b>Apple Store</b>
+              </button>
+            </a>
           </div>
         </div>
       </div>

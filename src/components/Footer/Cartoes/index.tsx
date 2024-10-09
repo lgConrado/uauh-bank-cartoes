@@ -22,10 +22,10 @@ const FooterCartoes = () => {
               <a href="#banner--principal" className="link">
                 <li>Cartões benefícios</li>
               </a>
-              <a href="" className="link">
+              <a href="/uauh-bank" className="link">
                 <li>Conta digital</li>
               </a>
-              <a href="" className="link">
+              <a href="/uauh-bank" className="link">
                 <li>Empréstimo consignado</li>
               </a>
             </ul>
@@ -36,13 +36,13 @@ const FooterCartoes = () => {
               <a href="#portais" className="link">
                 <li>Acesso aos portais</li>
               </a>
-              <a href="#banner--app" className="link">
+              <a href="#app" className="link">
                 <li>App</li>
               </a>
-              <a href="#banner--beneficios" className="link">
+              <a href="#beneficios" className="link">
                 <li>Benefícios</li>
               </a>
-              <a href="#banner--rede" className="link">
+              <a href="#rede" className="link">
                 <li>Rede de aceitação</li>
               </a>
             </ul>

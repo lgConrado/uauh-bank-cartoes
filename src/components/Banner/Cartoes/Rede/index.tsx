@@ -3,7 +3,7 @@ import Figure from "../../../Figures";
 
 const BannerCartoesRede = () => {
   return (
-    <section className="banner--c--rede" id="banner--c--rede">
+    <section className="banner--c--rede" id="rede">
       <div className="banner--c--rede__content">
         <img
           className="banner--c--rede__content__ilustracao"
@@ -11,13 +11,21 @@ const BannerCartoesRede = () => {
           alt="Ilustração de cartões"
         />
         <div className="banner--c--rede__content__texts">
-          <h1 className="heading--c--primary">Explore nossa rede de aceitação!</h1>
+          <h1 className="heading--c--primary">
+            Explore nossa rede de aceitação!
+          </h1>
           <h2 className="heading--c--secondary">
             Onde você estiver, estamos com você. Explore nossa rede de aceitação
             e faça suas compras com segurança e praticidade!
           </h2>
           <div className="banner--c--rede__content__button">
-            <button className="button button--c--laranja">Buscar</button>
+            <a
+              href="https://site.uauh.com.br/rede-aceitacao/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button button--c--laranja">Buscar</button>
+            </a>
           </div>
         </div>
       </div>

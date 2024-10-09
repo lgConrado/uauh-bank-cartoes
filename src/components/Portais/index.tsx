@@ -3,7 +3,6 @@ import portal_beneficio from "../../assets/cartoes/icone-portal-beneficio.png";
 import portal_credenciado from "../../assets/cartoes/icone-portal-credenciado.png";
 import portal_frota from "../../assets/cartoes/icone-portal-frota.png";
 import portal_usuario from "../../assets/cartoes/icone-portal-usuario.png";
-
 interface IPortal {
   portal: string;
   descricao: string;
@@ -62,7 +61,14 @@ const Portais = () => {
                 {portal.descricao}
               </p>
               <div className="portais__card__button">
-                <button className="button button--c--laranja ">Acessar</button>
+                <a
+                  href={portal.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  <button className="button button--c--laranja">Acessar</button>
+                </a>
               </div>
             </div>
           );

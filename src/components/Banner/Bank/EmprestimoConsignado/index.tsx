@@ -2,7 +2,10 @@ import undraw from "../../../../assets/bank/ilustracao-app-bank.png";
 
 const BannerBankEmprestimoConsignado = () => {
   return (
-    <section className="banner--b--emprestimo-consignado">
+    <section
+      className="banner--b--emprestimo-consignado"
+      id="banner--emprestimo-consignado"
+    >
       <div className="banner--b--emprestimo-consignado__content">
         <div className="banner--b--emprestimo-consignado__content__left">
           <div className="banner--b--emprestimo-consignado__content__texts">
@@ -19,12 +22,24 @@ const BannerBankEmprestimoConsignado = () => {
               <strong>Simule pelo nosso App</strong>
             </h2>
             <div className="banner--b--emprestimo-consignado__content__buttons">
-              <button className="button button--c--azul">
-                Disponível no <br /> <b>Google Play</b>
-              </button>
-              <button className="button button--c--azul">
-                Disponível no <br /> <b>Apple Store</b>
-              </button>
+              <a
+                href="https://play.google.com/store/apps/details?id=io.cashway.uauhbank&pcampaignid=web_share"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="button button--c--azul">
+                  Disponível no <br /> <b>Google Play</b>
+                </button>
+              </a>
+              <a
+                href="https://apps.apple.com/br/app/uauh-bank/id6535689290"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="button button--c--azul">
+                  Disponível no <br /> <b>Apple Store</b>
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -9,9 +9,7 @@ const FooterBank = () => {
         </div>
         <div className="footer__content__lists">
           <div className="footer__content__list">
-            <h4 className="heading--b--quaternary">
-              Sobre nós
-            </h4>
+            <h4 className="heading--b--quaternary">Sobre nós</h4>
             <ul>
               <li className="text--cinza">Ética e Compilance</li>
               <li className="text--cinza">Política de privacidade</li>
@@ -19,44 +17,35 @@ const FooterBank = () => {
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--b--quaternary">
-              Serviços
-            </h4>
+            <h4 className="heading--b--quaternary">Serviços</h4>
             <ul>
-              <a href="#banner--c--principal" className="link">
+              <a href="/" className="link">
                 <li>Cartões benefícios</li>
               </a>
-              <a href="" className="link">
+              <a href="#conta-digital" className="link">
                 <li>Conta digital</li>
               </a>
-              <a href="" className="link">
+              <a href="#emprestimo-consignado" className="link">
                 <li>Empréstimo consignado</li>
               </a>
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--b--quaternary">
-              Navegação
-            </h4>
+            <h4 className="heading--b--quaternary">Navegação</h4>
             <ul>
-              <a href="#" className="link">
-                <li>App</li>
-              </a>
-              <a href="#" className="link">
+              <a href="#banner--beneficios" className="link">
                 <li>Benefícios</li>
               </a>
-              <a href="#" className="link">
+              <a href="#banner--conta-digital" className="link">
                 <li>Conta digital</li>
               </a>
-              <a href="#" className="link">
+              <a href="#banner--emprestimo-consignado" className="link">
                 <li>Empréstimo consignado</li>
               </a>
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--b--quaternary">
-              Fale conosco
-            </h4>
+            <h4 className="heading--b--quaternary">Fale conosco</h4>
             <ul>
               <li className="text--cinza">0800 360 9000</li>
               <li className="text--cinza">+55 (44) 9.9185-8651</li>
