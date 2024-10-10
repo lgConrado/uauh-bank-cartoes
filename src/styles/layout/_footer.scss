@@ -95,6 +95,10 @@
 
     &__logo {
       border-bottom: 0.125rem solid $color-b-primary;
+
+      @include respond(phone) {
+        border-bottom: none;
+      }
     }
   }
 }
