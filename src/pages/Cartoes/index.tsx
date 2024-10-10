@@ -3,7 +3,6 @@ import BannerCartoesBeneficios from "../../components/Banner/Cartoes/Beneficios"
 import Portais from "../../components/Portais";
 import BannerAppCartoes from "../../components/Banner/Cartoes/App";
 import BannerCartoesRede from "../../components/Banner/Cartoes/Rede";
-import FooterCartoes from "../../components/Footer/Cartoes";
 import { useEffect } from "react";
 import BannerBankNovidade from "../../components/Banner/Bank/Novidade";
 
@@ -34,7 +33,6 @@ const Cartoes = () => {
           <BannerBankNovidade />
         </div>
       </main>
-      <FooterCartoes />
     </>
   );
 };

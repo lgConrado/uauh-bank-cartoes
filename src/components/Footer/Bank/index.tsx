@@ -12,7 +12,14 @@ const FooterBank = () => {
             <h4 className="heading--b--quaternary">Sobre nós</h4>
             <ul>
               <li className="text--cinza">Ética e Compilance</li>
-              <li className="text--cinza">Política de privacidade</li>
+              <a
+                href="/uauh-bank/politica-privacidade"
+                className="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <li className="text--cinza">Política de privacidade</li>
+              </a>
               <li className="text--cinza">Quem somos?</li>
             </ul>
           </div>

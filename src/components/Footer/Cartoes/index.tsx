@@ -9,15 +9,26 @@ const FooterCartoes = () => {
         </div>
         <div className="footer__content__lists">
           <div className="footer__content__list">
-            <h4 className="heading--c--quaternary heading--c--quaternary--c">Sobre nós</h4>
+            <h4 className="heading--c--quaternary heading--c--quaternary--c">
+              Sobre nós
+            </h4>
             <ul>
               <li className="text--cinza">Ética e Compilance</li>
-              <li className="text--cinza">Política de privacidade</li>
+              <a
+                href="/politica-privacidade"
+                className="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <li className="text--cinza">Política de privacidade</li>
+              </a>
               <li className="text--cinza">Quem somos?</li>
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--c--quaternary heading--c--quaternary--c">Serviços</h4>
+            <h4 className="heading--c--quaternary heading--c--quaternary--c">
+              Serviços
+            </h4>
             <ul>
               <a href="#banner--principal" className="link">
                 <li>Cartões benefícios</li>
@@ -31,7 +42,9 @@ const FooterCartoes = () => {
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--c--quaternary heading--c--quaternary--c">Navegação</h4>
+            <h4 className="heading--c--quaternary heading--c--quaternary--c">
+              Navegação
+            </h4>
             <ul>
               <a href="#portais" className="link">
                 <li>Acesso aos portais</li>
@@ -48,7 +61,9 @@ const FooterCartoes = () => {
             </ul>
           </div>
           <div className="footer__content__list">
-            <h4 className="heading--c--quaternary heading--c--quaternary--c">Fale conosco</h4>
+            <h4 className="heading--c--quaternary heading--c--quaternary--c">
+              Fale conosco
+            </h4>
             <ul>
               <li className="text--cinza">0800 360 9000</li>
               <li className="text--cinza">+55 (44) 9.9185-8651</li>
