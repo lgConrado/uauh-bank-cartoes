@@ -624,23 +624,57 @@
       padding: 4rem;
       scroll-snap-align: center;
 
+      @include respond(laptop) {
+        padding: 3rem;
+      }
+
+      @include respond(tab-land) {
+        padding: 2rem;
+      }
+
+      @include respond(phone) {
+        padding: 1rem;
+      }
+
       &__content {
         display: flex;
         flex-direction: column;
         gap: 8rem;
         scroll-snap-align: center;
 
+        @include respond(tab-land) {
+          gap: 6rem;
+        }
+
+        @include respond(phone) {
+          gap: 4rem;
+        }
+
         &__card {
           align-items: center;
           background-color: $color-b-primary;
           border-radius: 1rem;
           display: flex;
-          justify-content: space-around;
-          padding: 4rem 6rem;
+          gap: 8rem;
           height: 32rem;
-          position: relative;
+          justify-content: center;
           overflow: hidden;
+          padding: 4rem;
           transition: all 0.3s ease-in-out;
+
+          @include respond(laptop) {
+            gap: 4rem;
+            height: 26rem;
+            padding: 2rem;
+          }
+
+          @include respond(tab-land) {
+            height: 20rem;
+          }
+
+          @include respond(phone) {
+            height: 18rem;
+          }
 
           &:hover {
             background-color: $color-b-hard-dark;
@@ -648,14 +682,21 @@
 
           &__ilustracao {
             border-radius: 50%;
-            height: 24rem;
+            height: 16rem;
             object-fit: cover;
             outline: 0.125rem solid $color-white;
             outline-offset: 1.5rem;
-            position: absolute;
             transition: all 0.3s ease-in-out;
-            z-index: 1;
-            width: 24rem;
+            width: 16rem;
+
+            @include respond(laptop) {
+              height: 12rem;
+              width: 12rem;
+            }
+
+            @include respond(tab-land) {
+              display: none;
+            }
 
             &:hover {
               box-shadow: 0 1rem 1rem rgba($color-white, 0.32);
@@ -669,48 +710,31 @@
             border-radius: 50%;
             color: $color-white;
             font-size: 1.5rem;
-            right: 10%;
             max-width: 36rem;
-            padding: 4rem 6rem;
-            position: absolute;
+            padding: 4rem;
             transition: all 0.3s ease-in-out;
-            z-index: 1;
+
+            @include respond(laptop) {
+              font-size: 1.25rem;
+              padding: 3rem;
+            }
+            
+            @include respond(phone) {
+              font-size: 1rem;
+            }
 
             &:hover {
               transform: scale(1.1);
             }
           }
+        }
 
-          &__figure {
-            background-color: $color-b-primary;
-            border: 0.125rem solid $color-white;
-            border-radius: 50%;
-            position: absolute;
-            right: -5%;
-            top: -50%;
-            height: 64rem;
-            width: 64rem;
-            z-index: 0;
-          }
+        &__card:hover &__card__conteudo {
+          background-color: $color-b-primary;
+        }
 
-          &:nth-child(2n) &__figure {
-            left: -5%;
-            top: -50%;
-          }
-
-          &:nth-child(2n) &__conteudo {
-            left: 10%;
-          }
-
-          &:nth-child(2n) &__ilustracao {
-            right: 10%;
-            left: auto;
-          }
-
-          &:nth-child(odd) &__ilustracao {
-            left: 10%;
-            right: auto;
-          }
+        &__card:nth-child(odd) {
+          flex-direction: row-reverse;
         }
       }
     }
