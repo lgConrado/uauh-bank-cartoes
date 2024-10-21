@@ -9,12 +9,12 @@ import QuemSomosCartoes from "../pages/Cartoes/QuemSomos";
 const Rotas = () => {
   return (
     <Routes>
-      <Route path="/cartoes" element={<Cartoes />} />
+      <Route path="/" element={<Cartoes />} />
       <Route
-        path="/cartoes/politica-privacidade"
+        path="/cpolitica-privacidade"
         element={<PoliticaCartoes />}
       />
-      <Route path="/cartoes/quem-somos" element={<QuemSomosCartoes />} />
+      <Route path="/quem-somos" element={<QuemSomosCartoes />} />
       <Route path="/bank" element={<Bank />} />
       <Route path="/bank/politica-privacidade" element={<PoliticaBank />} />
       <Route path="/bank/quem-somos" element={<QuemSomosBank />} />
