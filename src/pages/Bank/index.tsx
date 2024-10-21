@@ -24,7 +24,7 @@ const Bank = () => {
       <main className="main">
         <div>
           <BannerBankPrincipal />
-          <BannerBankContaDigital />
+          <BannerBankContaDigital />          
           <BannerBankBeneficios />
           <BannerBankEmprestimoConsignado />
         </div>
