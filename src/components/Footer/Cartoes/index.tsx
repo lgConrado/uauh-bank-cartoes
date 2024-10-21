@@ -13,7 +13,6 @@ const FooterCartoes = () => {
               Sobre nós
             </h4>
             <ul>
-              <li className="text--cinza">Ética e Compilance</li>
               <a
                 href="/politica-privacidade"
                 className="link"
@@ -22,7 +21,9 @@ const FooterCartoes = () => {
               >
                 <li className="text--cinza">Política de privacidade</li>
               </a>
-              <li className="text--cinza">Quem somos?</li>
+              <a href="/quem-somos" className="link" target="_blank" rel="noopener noreferrer">
+                <li className="text--cinza">Quem somos?</li>
+              </a>
             </ul>
           </div>
           <div className="footer__content__list">
