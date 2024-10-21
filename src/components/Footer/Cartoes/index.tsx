@@ -14,14 +14,14 @@ const FooterCartoes = () => {
             </h4>
             <ul>
               <a
-                href="/politica-privacidade"
+                href="/cartoes/politica-privacidade"
                 className="link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <li className="text--cinza">Política de privacidade</li>
               </a>
-              <a href="/quem-somos" className="link" target="_blank" rel="noopener noreferrer">
+              <a href="/cartoes/quem-somos" className="link" target="_blank" rel="noopener noreferrer">
                 <li className="text--cinza">Quem somos?</li>
               </a>
             </ul>

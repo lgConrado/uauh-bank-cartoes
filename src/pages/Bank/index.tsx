@@ -3,6 +3,7 @@ import BannerBankContaDigital from "../../components/Banner/Bank/ContaDigital";
 import BannerBankEmprestimoConsignado from "../../components/Banner/Bank/EmprestimoConsignado";
 import BannerBankPrincipal from "../../components/Banner/Bank/Principal";
 import { useEffect } from "react";
+import FooterBank from "../../components/Footer/Bank";
 
 const Bank = () => {
   useEffect(() => {
@@ -24,11 +25,12 @@ const Bank = () => {
       <main className="main">
         <div>
           <BannerBankPrincipal />
-          <BannerBankContaDigital />          
+          <BannerBankContaDigital />
           <BannerBankBeneficios />
           <BannerBankEmprestimoConsignado />
         </div>
       </main>
+      <FooterBank />
     </>
   );
 };

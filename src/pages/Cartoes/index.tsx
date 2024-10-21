@@ -5,6 +5,7 @@ import BannerAppCartoes from "../../components/Banner/Cartoes/App";
 import BannerCartoesRede from "../../components/Banner/Cartoes/Rede";
 import { useEffect } from "react";
 import BannerBankNovidade from "../../components/Banner/Bank/Novidade";
+import FooterCartoes from "../../components/Footer/Cartoes";
 
 const Cartoes = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const Cartoes = () => {
           <BannerBankNovidade />
         </div>
       </main>
+      <FooterCartoes />
     </>
   );
 };
