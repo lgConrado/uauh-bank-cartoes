@@ -34,10 +34,10 @@ const FooterCartoes = () => {
               <a href="#banner--principal" className="link">
                 <li>Cartões benefícios</li>
               </a>
-              <a href="/uauh-bank" className="link">
+              <a href="/bank" className="link">
                 <li>Conta digital</li>
               </a>
-              <a href="/uauh-bank" className="link">
+              <a href="/bank" className="link">
                 <li>Empréstimo consignado</li>
               </a>
             </ul>

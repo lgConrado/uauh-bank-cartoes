@@ -16,7 +16,7 @@ const Rotas = () => {
         <Route path="politica-privacidade" element={<PoliticaCartoes />} />
         <Route path="quem-somos" element={<QuemSomosCartoes />} />
       </Route>
-      <Route path="/uauh-bank" element={<DefaultBank />}>
+      <Route path="/bank" element={<DefaultBank />}>
         <Route path="" element={<Bank />} />
         <Route path="politica-privacidade" element={<PoliticaBank />} />
         <Route path="quem-somos" element={<QuemSomosBank />} />

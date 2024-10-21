@@ -13,7 +13,7 @@ const FooterBank = () => {
             <ul>
               <li className="text--cinza">Ética e Compilance</li>
               <a
-                href="/uauh-bank/politica-privacidade"
+                href="/bank/politica-privacidade"
                 className="link"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -21,7 +21,7 @@ const BannerBankNovidade = () => {
             soluções completas e um compromisso real com você.
           </h2>
           <div className="banner--b--novidade__content__button">
-            <a href="/uauh-bank">
+            <a href="/bank">
               <button className="button button--b--primary">
                 Quero conhecer!
               </button>
