@@ -26,7 +26,7 @@ const FooterBank = () => {
           <div className="footer__content__list">
             <h4 className="heading--b--quaternary">Serviços</h4>
             <ul>
-              <a href="/cartoes" className="link">
+              <a href="/" className="link">
                 <li>Cartões benefícios</li>
               </a>
               <a href="#conta-digital" className="link">
