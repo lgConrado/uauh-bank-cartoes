@@ -1,4 +1,5 @@
 import Logo from "../../Logo";
+import file from "../../../assets/bank/MH SCD-6 - CODIGO DE ÉTICA E CONDUTA - REV.0.pdf";
 
 const FooterBank = () => {
   return (
@@ -11,7 +12,14 @@ const FooterBank = () => {
           <div className="footer__content__list">
             <h4 className="heading--b--quaternary">Sobre nós</h4>
             <ul>
-              <li className="text--cinza">Ética e Compilance</li>
+              <a
+                href={file}
+                className="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <li className="text--cinza">Ética e Compilance</li>
+              </a>
               <a
                 href="/bank/politica-privacidade"
                 className="link"
@@ -20,7 +28,14 @@ const FooterBank = () => {
               >
                 <li className="text--cinza">Política de privacidade</li>
               </a>
-              <li className="text--cinza">Quem somos?</li>
+              <a
+                href="/bank/quem-somos"
+                className="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <li className="text--cinza">Quem somos?</li>
+              </a>
             </ul>
           </div>
           <div className="footer__content__list">
@@ -29,10 +44,10 @@ const FooterBank = () => {
               <a href="/" className="link">
                 <li>Cartões benefícios</li>
               </a>
-              <a href="#conta-digital" className="link">
+              <a href="/bank#conta-digital" className="link">
                 <li>Conta digital</li>
               </a>
-              <a href="#emprestimo-consignado" className="link">
+              <a href="/bank#emprestimo-consignado" className="link">
                 <li>Empréstimo consignado</li>
               </a>
             </ul>

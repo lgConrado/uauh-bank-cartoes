@@ -21,7 +21,12 @@ const FooterCartoes = () => {
               >
                 <li className="text--cinza">Política de privacidade</li>
               </a>
-              <a href="/quem-somos" className="link" target="_blank" rel="noopener noreferrer">
+              <a
+                href="/quem-somos"
+                className="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <li className="text--cinza">Quem somos?</li>
               </a>
             </ul>
@@ -31,7 +36,7 @@ const FooterCartoes = () => {
               Serviços
             </h4>
             <ul>
-              <a href="#banner--principal" className="link">
+              <a href="/#banner--principal" className="link">
                 <li>Cartões benefícios</li>
               </a>
               <a href="/bank" className="link">
