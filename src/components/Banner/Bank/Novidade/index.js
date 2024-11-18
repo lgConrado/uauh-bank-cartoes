@@ -1,0 +1,7 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import Logo from "../../../Logo";
+import undraw from "../../../../assets/bank/ilustracao-novidade.jpg";
+const BannerBankNovidade = () => {
+    return (_jsxs("section", { className: "banner--b--novidade", id: "banner--b--novidade", children: [_jsx("div", { className: "banner--b--novidade__logo", children: _jsx(Logo, { variant: "bank", theme: "azul" }) }), _jsxs("div", { className: "banner--b--novidade__content", children: [_jsxs("div", { className: "banner--b--novidade__content__texts", children: [_jsxs("h1", { className: "heading--b--primary", children: [_jsxs("span", { children: ["Vem conhecer o ", _jsx("br", {})] }), " ", "UAUH Bank!"] }), _jsxs("h2", { className: "heading--b--secondary", children: [_jsx("b", { children: "Chegou a hora de ter um banco que est\u00E1 do seu lado. " }), "Atendimento personalizado, tecnologia de ponta, taxas competitivas, solu\u00E7\u00F5es completas e um compromisso real com voc\u00EA."] }), _jsx("div", { className: "banner--b--novidade__content__button", children: _jsx("a", { href: "/bank", children: _jsx("button", { className: "button button--b--primary", children: "Quero conhecer!" }) }) })] }), _jsx("img", { src: undraw, className: "banner--b--novidade__content__ilustracao" })] }), _jsx("div", { className: "banner--b--novidade__figure" })] }));
+};
+export default BannerBankNovidade;

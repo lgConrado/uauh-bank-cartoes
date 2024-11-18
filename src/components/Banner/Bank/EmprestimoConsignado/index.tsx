@@ -1,6 +1,6 @@
 import undraw from "../../../../assets/bank/ilustracao-app-bank.png";
-
 const BannerBankEmprestimoConsignado = () => {
+
   return (
     <section
       className="banner--b--emprestimo-consignado"

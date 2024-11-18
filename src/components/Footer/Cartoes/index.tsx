@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "../../Logo";
 
 const FooterCartoes = () => {
@@ -13,14 +14,16 @@ const FooterCartoes = () => {
               Sobre nós
             </h4>
             <ul>
-              <a
-                href="/politica-privacidade"
-                className="link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <li className="text--cinza">Política de privacidade</li>
-              </a>
+              <Link href="/politica-privacidade">
+                <a
+                  href="/politica-privacidade"
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <li className="text--cinza">Política de privacidade</li>
+                </a>
+              </Link>
               <a
                 href="/quem-somos"
                 className="link"

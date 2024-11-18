@@ -2,6 +2,7 @@ import Logo from "../../../Logo";
 import undraw from "../../../../assets/bank/ilustracao-novidade.jpg";
 
 const BannerBankNovidade = () => {
+
   return (
     <section className="banner--b--novidade" id="banner--b--novidade">
       <div className="banner--b--novidade__logo">

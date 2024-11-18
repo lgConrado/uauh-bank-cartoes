@@ -1,8 +1,8 @@
 import beneficios from "./beneficios.json";
-import banco_parceiro from "../../../../assets/bank/ilustracao-banco-parceiro.jpg";
-import sem_burocracia from "../../../../assets/bank/ilustracao-sem-burocracia.png";
-import equipe_comprometida from "../../../../assets/bank/ilustracao-equipe-comprometida.jpg";
-import solucoes_comprometidas from "../../../../assets/bank/ilustracao-solucoes-financeiras.jpg";
+import bancoParceiro from "../../../../assets/bank/ilustracao-banco-parceiro.jpg";
+import semBurocracia from "../../../../assets/bank/ilustracao-sem-burocracia.png";
+import equipeComprometida from "../../../../assets/bank/ilustracao-equipe-comprometida.jpg";
+import solucoesComprometidas from "../../../../assets/bank/ilustracao-solucoes-financeiras.jpg";
 
 interface IBeneficio {
   id: string;
@@ -15,28 +15,28 @@ const BannerBankBeneficios = () => {
       case "banco-parceiro":
         return (
           <img
-            src={banco_parceiro}
+            src={bancoParceiro}
             className="banner--b--beneficios__content__card__ilustracao"
           />
         );
       case "sem-burocracia":
         return (
           <img
-            src={sem_burocracia}
+            src={semBurocracia}
             className="banner--b--beneficios__content__card__ilustracao"
           />
         );
       case "equipe-comprometida":
         return (
           <img
-            src={equipe_comprometida}
+            src={equipeComprometida}
             className="banner--b--beneficios__content__card__ilustracao"
           />
         );
       case "solucoes-financeiras":
         return (
           <img
-            src={solucoes_comprometidas}
+            src={solucoesComprometidas}
             className="banner--b--beneficios__content__card__ilustracao"
           />
         );

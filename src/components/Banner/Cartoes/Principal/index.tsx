@@ -1,8 +1,9 @@
-import undraw from "../../../../assets/cartoes/ilustracao-cartoes.png";
 import Figure from "../../../Figures";
 import Logo from "../../../Logo";
+import undraw from "../../../../assets/cartoes/ilustracao-cartoes.png";
 
 const BannerCartoesPrincipal = () => {
+
   return (
     <section className="banner--c--principal" id="banner--c--principal">
       <div className="banner--c--principal__content">

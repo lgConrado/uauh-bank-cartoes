@@ -1,6 +1,6 @@
 import undraw from "../../../../assets/bank/ilustracao-conta-digital.png";
-
 const BannerBankContaDigital = () => {
+  
   return (
     <section className="banner--b--conta-digital" id="banner--conta-digital">
       <div className="banner--b--conta-digital__content">

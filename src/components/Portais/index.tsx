@@ -10,6 +10,7 @@ interface IPortal {
 }
 
 const coverCard = (portal: string) => {
+
   switch (portal) {
     case "Portal Benefício":
       return (

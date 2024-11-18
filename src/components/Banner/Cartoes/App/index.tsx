@@ -1,6 +1,6 @@
 import undraw from "../../../../assets/cartoes/ilustracao-app.png";
-
 const BannerAppCartoes = () => {
+
   return (
     <section className="banner--c--app" id="app">
       <div className="banner--c--app__content">

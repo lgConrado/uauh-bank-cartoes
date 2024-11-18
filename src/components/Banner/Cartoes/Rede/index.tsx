@@ -1,7 +1,8 @@
-import undraw from "../../../../assets/cartoes/ilustracao-busca-credenciado.png";
 import Figure from "../../../Figures";
+import undraw from "../../../../assets/cartoes/ilustracao-busca-credenciado.png";
 
 const BannerCartoesRede = () => {
+
   return (
     <section className="banner--c--rede" id="rede">
       <div className="banner--c--rede__content">

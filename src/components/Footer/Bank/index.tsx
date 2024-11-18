@@ -1,5 +1,4 @@
 import Logo from "../../Logo";
-import file from "../../../assets/bank/MH SCD-6 - CODIGO DE ÉTICA E CONDUTA - REV.0.pdf";
 
 const FooterBank = () => {
   return (
@@ -13,7 +12,7 @@ const FooterBank = () => {
             <h4 className="heading--b--quaternary">Sobre nós</h4>
             <ul>
               <a
-                href={file}
+                href="../../../assets/bank/MH SCD-6 - CODIGO DE ÉTICA E CONDUTA - REV.0.pdf"
                 className="link"
                 target="_blank"
                 rel="noopener noreferrer"
