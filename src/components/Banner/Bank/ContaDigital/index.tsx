@@ -16,7 +16,7 @@ const BannerBankContaDigital = () => {
           </h2>
           <div className="banner--b--conta-digital__content__button">
             <a
-              href="https://play.google.com/store/apps/details?id=io.cashway.uauhbank&pcampaignid=web_share"
+              href="https://uauhbank.ib-front.cashway.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
