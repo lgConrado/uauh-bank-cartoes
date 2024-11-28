@@ -1,10 +1,10 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import beneficios from "./beneficios.json";
-import bancoParceiro from "../../../../assets/bank/ilustracao-banco-parceiro.jpg";
-import semBurocracia from "../../../../assets/bank/ilustracao-sem-burocracia.png";
-import equipeComprometida from "../../../../assets/bank/ilustracao-equipe-comprometida.jpg";
-import solucoesComprometidas from "../../../../assets/bank/ilustracao-solucoes-financeiras.jpg";
 const BannerBankBeneficios = () => {
+    const bancoParceiro = "/assets/bank/ilustracao-banco-parceiro.jpg";
+    const semBurocracia = "/assets/bank/ilustracao-sem-burocracia.png";
+    const equipeComprometida = "/assets/bank/ilustracao-equipe-comprometida.jpg";
+    const solucoesComprometidas = "/assets/bank/ilustracao-solucoes-financeiras.jpg";
     const cardBeneficio = (id) => {
         switch (id) {
             case "banco-parceiro":

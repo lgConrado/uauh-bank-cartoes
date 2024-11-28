@@ -8,17 +8,17 @@ import QuemSomosCartoes from "../pages/Cartoes/QuemSomos";
 
 const Rotas = () => {
   return (
-    
-      <Routes>
-        <Route path="/" element={<Cartoes />} />
-        <Route path="/politica-privacidade" element={<PoliticaCartoes />} />
-        <Route path="/quem-somos" element={<QuemSomosCartoes />} />
-        <Route path="/bank" element={<Bank />} />
-        <Route path="/bank/politica-privacidade" element={<PoliticaBank />} />
-        <Route path="/bank/quem-somos" element={<QuemSomosBank />} />
-        <Route path="*" element={<div>404 - Página não encontrada</div>} />
-      </Routes>
-    
+    <Routes>
+      <Route path="/" element={<Cartoes />} />
+      <Route
+        path="/politica-privacidade"
+        element={<PoliticaCartoes />}
+      />
+      <Route path="/quem-somos" element={<QuemSomosCartoes />} />
+      <Route path="/bank" element={<Bank />} />
+      <Route path="/bank/politica-privacidade" element={<PoliticaBank />} />
+      <Route path="/bank/quem-somos" element={<QuemSomosBank />} />
+    </Routes>
   );
 };
 

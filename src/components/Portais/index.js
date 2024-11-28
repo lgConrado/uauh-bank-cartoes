@@ -1,10 +1,10 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import portais from "./portais.json";
-import portal_beneficio from "../../assets/cartoes/icone-portal-beneficio.png";
-import portal_credenciado from "../../assets/cartoes/icone-portal-credenciado.png";
-import portal_frota from "../../assets/cartoes/icone-portal-frota.png";
-import portal_usuario from "../../assets/cartoes/icone-portal-usuario.png";
 const coverCard = (portal) => {
+    const portal_beneficio = "../../assets/cartoes/icone-portal-beneficio.png";
+    const portal_credenciado = "../../assets/cartoes/icone-portal-credenciado.png";
+    const portal_frota = "../../assets/cartoes/icone-portal-frota.png";
+    const portal_usuario = "../../assets/cartoes/icone-portal-usuario.png";
     switch (portal) {
         case "Portal Benefício":
             return (_jsx("img", { src: portal_beneficio, alt: `Capa ${portal}`, className: "portais__card__header__cover" }));
