@@ -1,11 +1,11 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import beneficios from "./beneficios.json";
 import Figure from "../../../Figures";
+import cartao_alimentacao from "../../../../assets/cartoes/cartao-alimentacao.png";
+import cartao_multi from "../../../../assets/cartoes/cartao-multi.png";
+import cartao_transporte from "../../../../assets/cartoes/cartao-transporte.png";
+import cartao_trocoFrete from "../../../../assets/cartoes/cartao-troco-frete.png";
 const BannerCartoesBeneficios = () => {
-    const cartao_alimentacao = "../../../../assets/cartoes/cartao-alimentacao.png";
-    const cartao_multi = "../../../../assets/cartoes/cartao-multi.png";
-    const cartao_transporte = "../../../../assets/cartoes/cartao-transporte.png";
-    const cartao_trocoFrete = "../../../../assets/cartoes/cartao-troco-frete.png";
     const cardBeneficio = (beneficio) => {
         switch (beneficio) {
             case "Alimentação":
