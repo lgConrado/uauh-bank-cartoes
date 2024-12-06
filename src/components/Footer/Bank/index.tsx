@@ -33,7 +33,7 @@ const FooterBank = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <li className="text--cinza">Termo de uso dos serviços digitais</li>
+                <li className="text--cinza">Termo de uso</li>
               </a>
               <a
                 href="/bank/quem-somos"
