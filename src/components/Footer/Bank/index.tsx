@@ -28,6 +28,14 @@ const FooterBank = () => {
                 <li className="text--cinza">Política de privacidade</li>
               </a>
               <a
+                href="/bank/termo-uso"
+                className="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <li className="text--cinza">Termo de uso dos serviços digitais</li>
+              </a>
+              <a
                 href="/bank/quem-somos"
                 className="link"
                 target="_blank"
