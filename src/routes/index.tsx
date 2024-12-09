@@ -5,7 +5,7 @@ import PoliticaBank from "../pages/Bank/Politica";
 import PoliticaCartoes from "../pages/Cartoes/Politica";
 import QuemSomosBank from "../pages/Bank/QuemSomos";
 import QuemSomosCartoes from "../pages/Cartoes/QuemSomos";
-import TermoUso from "../components/TermoUso";
+import PoliticaTermoUso from "../components/TermoUso";
 
 const Rotas = () => {
   return (
@@ -18,7 +18,7 @@ const Rotas = () => {
       <Route path="/quem-somos" element={<QuemSomosCartoes />} />
       <Route path="/bank" element={<Bank />} />
       <Route path="/bank/politica-privacidade" element={<PoliticaBank />} />
-      <Route path="/bank/termo-uso" element={<TermoUso />} />
+      <Route path="/bank/termo-uso" element={<PoliticaTermoUso />} />
       <Route path="/bank/quem-somos" element={<QuemSomosBank />} />
     </Routes>
   );
